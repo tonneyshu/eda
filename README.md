@@ -1,5 +1,7 @@
 ## Overview
 
+![image](https://github.com/user-attachments/assets/2da84561-e6c1-4960-96c8-1db4c4da8f19)
+
 **Exploratory Data Analysis** is a Streamlit application that allows users to perform exploratory data analysis (EDA) on CSV files. It leverages the ydata_profiling library to generate comprehensive reports that summarize the data characteristics.
 
 ## Features
@@ -40,10 +42,10 @@ pip install -r requirements.txt
 
 - **load_data()**: Reads CSV files into a Pandas DataFrame.
 - **calculate_metrics()**: Computes essential metrics about the dataset, including:
-- Total number of rows and columns
-- Total missing values
-- Completeness percentage
-- Uniqueness percentage
+   - Total number of rows and columns
+   - Total missing values
+   - Completeness percentage
+   - Uniqueness percentage
 
 ## Acknowledgments
 
