@@ -43,10 +43,10 @@ pip install -r requirements.txt
 
 - **load_data()**: Reads CSV files into a Pandas DataFrame.
 - **calculate_metrics()**: Computes essential metrics about the dataset, including:
-- Total number of rows and columns
-- Total missing values
-- Completeness percentage
-- Uniqueness percentage
+   - Total number of rows and columns
+   - Total missing values
+   - Completeness percentage
+   - Uniqueness percentage
 
 ## Acknowledgments
 
