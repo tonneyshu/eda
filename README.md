@@ -9,7 +9,7 @@
 
 - **CSV File Upload**: Users can upload multiple CSV files for analysis.
 - **Automated EDA Reports**: For each uploaded file, an EDA report is generated, providing insights into the dataset.
-- **Metrics Calculation**: The app calculates key metrics such as total rows, total columns, completeness percentage, and duplication percentage.
+- **Metrics Calculation**: The app calculates key metrics such as total rows, total columns, completeness percentage, and uniqueness percentage.
 
 ## Requirements
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
    - Total number of rows and columns
    - Total missing values
    - Completeness percentage
-   - Duplication percentage
+   - Uniqueness percentage
 
 ## Acknowledgments
 
