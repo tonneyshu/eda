@@ -16,14 +16,13 @@ def calculate_metrics(df):
     total_rows = df.shape[0]
     total_columns = df.shape[1]
     total_missing = df.isnull().sum().sum()
-    unique_count = df.nunique().sum()
+    unique_count = df.drop_duplicates().shape[0]
     completeness_percentage = ((total_rows * total_columns - total_missing) / (total_rows * total_columns) * 100) if total_rows > 0 else 0
-    uniqueness_percentage = (unique_count / (total_rows * total_columns) * 100) if total_rows > 0 else 0
+    uniqueness_percentage = (unique_count / total_rows * 100) if total_rows > 0 else 0
     return total_rows, total_columns, completeness_percentage, uniqueness_percentage
 
 st.title("Exploratory Data Analysis")
 uploaded_files = st.file_uploader("Upload your CSV files", type=["csv"], accept_multiple_files=True)
-
 if uploaded_files:
     start_time = time.time()
     success_messages = ""
