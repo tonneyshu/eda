@@ -1,7 +1,6 @@
 ## Overview
 
-![image](https://github.com/user-attachments/assets/f93d8b19-d050-4830-b4cd-af2c9ba4f2d5)
-
+![image](https://github.com/user-attachments/assets/2da84561-e6c1-4960-96c8-1db4c4da8f19)
 
 **Exploratory Data Analysis** is a Streamlit application that allows users to perform exploratory data analysis (EDA) on CSV files. It leverages the ydata_profiling library to generate comprehensive reports that summarize the data characteristics.
 
