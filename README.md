@@ -46,7 +46,7 @@ pip install -r requirements.txt
    - Total number of rows and columns
    - Total missing values
    - Completeness percentage
-   - Uniqueness percentage
+   - Duplication percentage
 
 ## Acknowledgments
 
